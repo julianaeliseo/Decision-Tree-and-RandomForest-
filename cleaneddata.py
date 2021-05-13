@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 random_forest = RandomForestRegressor()
 
 #split dataset in features and target variable
-feature_cols = ['V18','V16','V11','V10', 'V12', 'V14', 'V17']
+feature_cols = ['V10', 'V12', 'V14', 'V17']
 
 X = df[feature_cols]  # Features
 y = df.Class  # Labels
